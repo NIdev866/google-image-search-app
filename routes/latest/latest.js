@@ -1,7 +1,7 @@
 const express = require("express")
 const router = express.Router()
 const mongoose = require("mongoose")
-const imageHistory = require("./../models/Image_history.model.js")
+const imageHistory = require("../../models/Image_history.model.js")
 
 router.get("/imagesearch", (req, res)=>{
   
